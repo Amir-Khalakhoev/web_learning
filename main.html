@@ -71,41 +71,77 @@
         <p>пример hr выше</p>
         <p>в html есть сущности(спец. символы), <br> записываются они как символ and + номер сущности + ;   <a href="https://www.freeformatter.com/html-entities.html">список всех сущностей</a></p>
         <p>существует понятие семантическая разметка, семантическая разметка отличается удобством использования, <br> вместо огромного количества div'ов в других div'ах используются семантические элементы, например nav,header <br> <a href="https://html5css.ru/html/html5_semantic_elements.php">список семантических элементов</a></p>
+        <table>
+            <thead>
+                <tr>
+                    <td>thead 1.1</td>
+                    <td>thead 1.2</td>
+                    <td>thead 1.3</td>
+                </tr>
+            </thead>
+                
+    
+            <tbody>
+                <tr>
+                    <td>tbody 1.1</td>
+                    <td>thead 1.2</td>
+                    <td>tbody 1.3</td>
+                </tr>
+                <tr>
+                    <td>tbody 2.1</td>
+                    <td>tbody 2.2</td>
+                    <td>tbody 2.3</td>
+                </tr>
+            <tbody>
+    
+    
+            <tfoot>
+                <tr>
+                    <td>tbody 1.1</td>
+                    <td>tfoot 1.2</td>
+                    <td>tfoot 1.3</td>
+                </tr>
+            </tfoot>
+    
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <td rowspan="2">name</td>
+                    <td rowspan="2">language(s)</td>
+                    <td rowspan="2">experience</td>
+                    <td rowspan="2">direction</td>
+                    <td colspan="2">salary</td>
+                </tr>
+                <tr>
+                    <td>₽</td>
+                    <td>$</td>
+                </tr>
+            </thead>
+                <tr>
+                    <td>Amir</td>
+                    <td>python</td>
+                    <td>1~ year</td>
+                    <td>scripts dev</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Movsar</td>
+                    <td>tsx, js</td>
+                    <td>4~ year</td>
+                    <td>web dev</td>
+                    <td>110 000</td>
+                    <td>1 300 </td>
+                </tr>
+            <tbody>
+
+            </tbody>
+        </table>
     </div>
 
-    <table>
-        <thead>
-            <tr>
-                <td>thead 1.1</td>
-                <td>thead 1.2</td>
-                <td>thead 1.3</td>
-            </tr>
-        </thead>
-            
-
-        <tbody>
-            <tr>
-                <td>tbody 1.1</td>
-                <td>thead 1.2</td>
-                <td>tbody 1.3</td>
-            </tr>
-            <tr>
-                <td>tbody 2.1</td>
-                <td>tbody 2.2</td>
-                <td>tbody 2.3</td>
-            </tr>
-        <tbody>
-
-
-        <tfoot>
-            <tr>
-                <td>tbody 1.1</td>
-                <td>tfoot 1.2</td>
-                <td>tfoot 1.3</td>
-            </tr>
-        </tfoot>
-
-        </tbody>
-    </table>
+    
 </body>
 </html>
